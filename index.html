@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Wizard of Yog</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main" class="main">
+
+<div id="tabs" class="invisible">
+    <button id="storytab" onclick="tabSwitch('story')">Story</button>
+    <button id="charactertab" onclick="tabSwitch('stats')"">Character Sheet</button>
+    <button id="dungeontab" onclick="tabSwitch('dungeon')">Dungeon</button>
+</div>
+
+<div id="story" class="activetab">
+    <div class="storyscrollbox" id="storyscrollbox">
+    </div>
+</div>
+
+<div id="stats" class="invisible">
+<table id="stats-table" class="stats-table">
+</table>
+</div>
+
+<div id="dungeon" class="invisible">
+    <div id="dungeon-canvas" class="dungeon-canvas">
+    </div>
+</div>
+
+</div>
+<button onclick="newGame();">New game</button>
+</body>
+<script src="loadgame.js"></script>
+<script src="stats.js"></script>
+<script src="dungeons.js"></script>
+<script src="story.js"></script>
+<script src="books.js"></script>
+</html>

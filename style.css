@@ -1,0 +1,49 @@
+.tabs {
+    margin-bottom:20px;
+}
+
+.invisible {
+    display:none;
+}
+
+.main {
+    width:90%;
+    height:90%;
+    margin-left:10px;
+}
+
+.storyscrollbox {
+    overflow: scroll;
+    border: 1px solid;
+    padding:10px;
+    height:70%;
+}
+
+table.stats-table tr td {
+    padding:5px;
+}
+
+.dungeon-canvas {
+    width:648px;
+    height:648px;
+    border:1px solid;
+}
+
+button[class^="dungeon-cell-"]{
+   border:1px solid  #e3e4e5;
+   margin:0px;
+   width:18px;
+   height:18px;
+}
+
+button.dungeon-cell-unknown {
+    background-color:#dad5de;
+}
+
+button.dungeon-cell-mud-floor {
+    background-color:#ab7d54;
+}
+
+button.dungeon-cell-mud-wall {
+    background-color:#6e5d3a;
+}
